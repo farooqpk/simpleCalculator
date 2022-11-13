@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Calculator.css">
+    <script src="Calculator.js"></script> 
+
+   
+
+</head>
+
+<body>
+    
+    <div class="mainBody container ms-4 col-md-12">
+        <div class="frame">
+            <br>
+            <div output>
+                <input type="text" id="Screen">
+            </div>
+        
+            <div class="Buttons">
+               
+                <button id="clearButton" class="btn" onclick="Clear()" >C</button>
+            <br>
+
+                   <button  class="btn" onclick="Click(7)" >7</button>
+                    <button  class="btn" onclick="Click(8)">8</button>
+                    <button class="btn" onclick="Click(9)">9</button>
+                    <button id="operatorColor" class="btn" onclick="Click('/')">/</button>
+                <br>
+                <button  class="btn" onclick="Click(4)" >4</button>
+                <button  class="btn" onclick="Click(5)">5</button>
+                <button  class="btn" onclick="Click(6)">6</button>
+                <button id="operatorColor" class="btn" onclick="Click('*')">x</button>
+                <br>
+                <button  class="btn" onclick="Click(1)" >1</button>
+                <button  class="btn" onclick="Click(2)">2</button>
+                <button  class="btn" onclick="Click(3)">3</button>
+                <button id="operatorColor" class="btn" onclick="Click('-')">-</button>
+               <br>
+               <button  class="btn" onclick="Click('.')" >.</button>
+               <button  class="btn" onclick="Click(0)">0</button>
+               <button  id="equalButtonColor" class="btn" onclick="equalClick()">=</button>
+               <button id="operatorColor" class="btn" onclick="Click('+')">+</button>
+            
+                
+                
+                   
+             
+
+            </div>
+            </div>
+        </div>
+
+  
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
